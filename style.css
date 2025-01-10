@@ -1,0 +1,120 @@
+:root{
+    --greenColor: hsl(75, 94%, 57%);
+    --textColor: hsl(0, 0%, 100%);
+    --greyBoxBg: hsl(0, 0%, 20%);
+    --grey800: hsl(0, 0%, 12%);
+    --greyBG: hsl(0, 0%, 8%);
+}
+
+
+body{
+    background: var(--greyBG);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100vh;
+    font-family: "Outfit", serif;
+    font-weight: 400;
+    color: var(--textColor);
+}
+
+main{
+    background: var(--grey800);
+    padding: 15px;
+    min-height: 320px;
+    min-width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        padding: 0 10px;
+    }
+    main{
+        min-width: 280px;
+    }
+}
+
+.profile-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.social-details{
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.social-details-h1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 700;
+}
+.social-details-h4{
+    margin-top: 8px;
+    color: var(--greenColor);
+    font-weight: 600;
+
+}
+
+.social-details-p{
+    font-size: 14px;
+}
+
+.social-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    width: 100%;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links> a{
+    width: 100%;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--textColor);
+    background: var(--greyBoxBg);
+    border-radius: 8px;
+}
+
+.links>a:hover{
+    box-shadow: 3px 3px 3px black;
+}
+
+.links>a:focus{
+    background: var(--greenColor);
+    color: var(--greyBG);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: var(--greenColor);
+}
