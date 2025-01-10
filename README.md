@@ -22,10 +22,11 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/judeze1/social-links-profile
+- Live Site URL: https://social-links-profile-ebon-two.vercel.app/
 
 ## My process
+
 Building the project was nice and easy and i enjoyed doing it.
 
 ### Built with
